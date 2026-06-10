@@ -228,13 +228,13 @@ This project demonstrates practical implementation of:
 ## 📸 Project Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ### Gesture Recognition
-![Gesture Recognition](screenshots/Gesture.png)
+![Gesture Recognition](images/Gesture.png)
 
 ### Analytics Dashboard
-![Analytics Dashboard](screenshots/Analytics.png)
+![Analytics Dashboard](images/Analytics Dashboard.png)
 
 ## 👩‍💻 Author
 

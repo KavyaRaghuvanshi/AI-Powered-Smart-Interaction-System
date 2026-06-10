@@ -225,6 +225,17 @@ This project demonstrates practical implementation of:
 
 ---
 
+## 📸 Project Screenshots
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Gesture Recognition
+![Gesture Recognition](screenshots/Gesture.png)
+
+### Analytics Dashboard
+![Analytics Dashboard](screenshots/Analytics.png)
+
 ## 👩‍💻 Author
 
 **Kavya Raghuvanshi**

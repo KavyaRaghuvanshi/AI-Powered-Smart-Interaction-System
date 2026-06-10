@@ -234,7 +234,7 @@ This project demonstrates practical implementation of:
 ![Gesture Recognition](images/Gesture.png)
 
 ### Analytics Dashboard
-![Analytics Dashboard](images/Analytics Dashboard.png)
+![Analytics Dashboard](images/Analytics.png)
 
 ## 👩‍💻 Author
 

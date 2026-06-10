@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Smart Interaction System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <h1 class="main-title">
+        AI-Powered Smart Interaction System
+    </h1>
+    
+    <div class="container">
+        <div class="sidebar">
+
+            <button onclick="startAI()">
+                Start AI
+            </button>
+
+            <button onclick="openChrome()">
+                Open Chrome
+            </button>
+
+            <button onclick="openNotepad()">
+                Open Notepad
+            </button>
+
+            <button onclick="enableAutomation()">
+                Enable Gesture Automation
+            </button>
+
+            <button onclick="disableAutomation()">
+                Disable Gesture Automation
+            </button>
+
+            <button onclick="openAnalytics()">
+                Analytics Dashboard
+            </button>
+        </div>
+       
+        <div class="main">
+
+            <div class="video-container">
+
+                <img
+                id="video-feed"
+                src=""
+                alt="Camera Feed"
+                >
+            </div>
+            
+            <h2 id="gestureText">
+                Detecting Gesture...
+            </h2>
+
+            <h3 id="status"></h3>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    
+</body>
+</html>

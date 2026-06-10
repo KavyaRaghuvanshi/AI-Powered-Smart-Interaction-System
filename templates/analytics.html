@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Analytics Dashboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="analytics-container">
+
+        <h1 class="main-title">
+            AI Analytics Dashboard 📊
+        </h1>
+
+        <div class="table-container">
+
+            <table>
+
+                <tr>
+                    <th>Gesture</th>
+                    <th>Emotion</th>
+                    <th>Action</th>
+                    <th>Timestamp</th>
+                </tr>
+
+                {% for row in data %}
+                <tr>
+                    <td>{{ row[0] }}</td>
+                    <td>{{ row[1] }}</td>
+                    <td>{{ row[2] }}</td>
+                    <td>{{ row[3] }}</td>
+                </tr>
+                {% endfor %}
+
+            </table>
+
+        </div>
+
+        <div class="dashboard-buttons">
+
+            <button onclick="window.location.href='/'">
+                🏠 Back to Dashboard
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

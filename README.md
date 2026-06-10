@@ -30,6 +30,15 @@ An AI-powered desktop interaction system that uses computer vision, gesture reco
 | 4 | Terminal |
 | 5 | Settings |
 
+## Work on
+
+- Real-time Hand Gesture Recognition
+- Emotion Detection using AI
+- Desktop Automation
+- Voice Assistant Integration
+- Analytics Dashboard
+- Interaction Logging
+
 ## Installation
 
 ```bash

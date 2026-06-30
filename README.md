@@ -68,7 +68,6 @@ Designed as a modern Human-Computer Interaction (HCI) solution, the project leve
 | Machine Learning     | TensorFlow                       |
 | Frontend             | HTML, CSS, JavaScript            |
 | Database             | SQLite                           |
-| Data Visualization   | Chart.js                         |
 | Automation           | Python OS & Automation Libraries |
 
 ---
